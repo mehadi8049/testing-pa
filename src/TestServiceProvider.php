@@ -30,7 +30,7 @@ class TestServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/Test.php' => config_path('test.php'),
+            __DIR__.'/../config/Test.php' => config_path('Test.php'),
         ]);
     }
 }
