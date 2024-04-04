@@ -18,7 +18,7 @@ class TestServiceProvider extends ServiceProvider
         });
 
         $this->mergeConfigFrom(
-            __DIR__.'/../config/Test.php', 'test'
+            __DIR__.'/../config/test.php', 'test'
         );
     }
 
@@ -30,7 +30,7 @@ class TestServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/Test.php' => config_path('Test.php'),
+            __DIR__.'/../config/test.php' => config_path('test.php'),
         ]);
     }
 }
