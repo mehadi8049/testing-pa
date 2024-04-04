@@ -1,5 +1,5 @@
 {
-    "name": "mehadi/testing-pa",
+    "name": "mehadi8049/testing-pa",
     "description": "Just testing purpose",
     "keywords": [
         "laravel_unique_slug",
@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=8.2"
     },
     "extra": {
         "laravel": {
