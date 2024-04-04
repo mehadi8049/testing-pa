@@ -1,0 +1,34 @@
+{
+    "name": "mehadi/testing-pa",
+    "description": "Just testing purpose",
+    "keywords": [
+        "laravel_unique_slug",
+        "laravel",
+        "laravel-unique-slug"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mehadi\\TestingPa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mehadi8049",
+            "email": "mehadi8049@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mehadi\\TestingPa\\TestServiceProvider"
+            ],
+            "aliases": {
+                "UniqueSlug": "Mehadi\\TestingPa\\Test"
+            }
+        }
+    }
+}
